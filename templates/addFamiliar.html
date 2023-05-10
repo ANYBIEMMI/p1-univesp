@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Novo Familiar</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+    <div class="nav">
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+    <div class="nav-title">
+      PIA
+    </div>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+
+  <div class="nav-links">
+
+    <a href="./index.html" target="_blank">Pacientes</a>
+    <a href="./familiares.html" target="_blank">Familiares</a>
+      <a href="./pias.html" target="_blank">PIA's</a>
+
+  </div>
+</div>
+</header>
+
+<h1 style="text-align:center;"> Novo Familiar</h1>
+<form action="/add" class="container" method="post">
+    <div class="row">
+        <div class="col-md-6">
+            <input type="text" name="nome" id="nome" placeholder="nome" class="form-control">
+
+        </div>
+    <br>
+        <div class="col-md-6">
+            <input type="date" name="dtNasc" id="dtNasc" placeholder="dtNasc" class="form-control">
+        </div>
+<br>
+         <div class="col-md-6">
+            <input type="text" name="parentesco" id="parentesco" placeholder="parentesco" class="form-control">
+        </div>
+<br>
+         <div class="col-md-6">
+            <input type="text" name="CPF" id="CPF" placeholder="CPF" class="form-control">
+        </div>
+<br>
+         <div class="col-md-6">
+            <input type="date" name="RG" id="RG" placeholder="RG" class="form-control">
+        </div>
+<br>
+         <div class="col-md-6">
+            <input type="text" name="responsavelLegal" id="responsavelLegal" placeholder="responsavelLegal" class="form-control">
+        </div>
+<br>
+         <div class="col-md-6">
+            <input type="text" name="nacionalidade" id="nacionalidade" placeholder="nacionalidade" class="form-control">
+        </div>
+<br>
+         <div class="col-md-6">
+            <input type="text" name="ocupaçao" id="ocupaçao" placeholder="ocupaçao" class="form-control">
+        </div>
+<br>
+          <div class="col-md-6">
+            <input type="text" name="demanda" id="demanda" placeholder="demanda" class="form-control">
+        </div>
+
+        <br>
+          <div class="col-md-6">
+            <input type="text" name="serviçoFrequentado" id="serviçoFrequentado" placeholder="serviçoFrequentado" class="form-control">
+        </div>
+        <br>
+          <div class="col-md-6">
+            <input type="text" name="email" id="email" placeholder="email" class="form-control">
+        </div>
+        <br>
+        <div class="col-md-6">
+            <input type="text" name="telefone" id="telefone" placeholder="telefone" class="form-control">
+        </div>
+        <br>
+        <div class="col-md-6">
+            <input type="text" name="endereço" id="endereço" placeholder="endereço" class="form-control">
+        </div>
+<br>
+    </div>
+
+<br>
+    <div class="col-md-6">
+        <button type="submit"  class="btn-block btn-light">Enviar</button>
+
+
+    </div>
+</form>
+<br>
+ <footer class="footer-section">
+
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-center">
+                        <div class="copyright-text">
+                            <p>Copyright, All Right Reserved </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-center">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
